@@ -1,0 +1,132 @@
+@font-face {
+    font-family: "inter";
+    src: url('../fonts/inter.woff2');
+}
+
+html {
+    font-size: 100%;
+    font-family: "inter";
+    color: #81ecec;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+*:not(i) {
+    font-family: "inter" !important;
+}
+
+
+body {
+    margin: 0;
+    padding: 10rem 2rem;
+    min-height: 100vh;
+    background: no-repeat linear-gradient(135deg, #b2bec3, #81ecec);
+    justify-content: center;
+    align-items: center !important;
+}
+
+.header {
+    background-color: #74b9ff;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    border-radius: 0 0 32px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.header .nav .a {
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.main {
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.sidebar {
+    background-color: #74b9ff;
+    flex-basis: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: .5rem;
+}
+
+.content {
+    background-color: #74b9ff;
+    flex-basis: 66.6%;
+    border-radius: .5rem;
+}
+
+.content .course-list {
+    display: flex;
+    gap: .5rem;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+
+.content .course-list .box {
+    background-color: #00cec9;
+    font-size: 1.5rem;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    border-radius: 1rem;
+    flex-basis: calc(33.33% - 0.5rem);
+}
+
+.main2 {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.intro {
+    background-color: #ff6b6b;
+    padding: 2rem;
+    border-radius: .5rem;
+    font-weight: bold;
+}
+
+.about {
+    background-color: #ff6b6b;
+    border-radius: .5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00cec9;
+    color: #81ecec;
+    font-weight: bold;
+    border-radius: 32px 32px 0 0;
+    padding: 3rem;
+    font-size: 2rem;
+}
